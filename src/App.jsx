@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-
-import MainPage from "./pages/mainPAge";
 import axios from "axios";
 import { Skeleton } from "@mui/material";
+import MainPage from "./pages/MainPage";
 
 function App() {
   const [leaderBoard, setLeaderBoard] = useState([]);
